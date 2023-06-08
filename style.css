@@ -1,0 +1,67 @@
+#tela {
+
+
+    width: auto;
+    height: 150px;
+    border-style: ridge;
+    border-color: #146bb8;
+
+}
+
+h4 {
+    margin: auto;
+    width: auto;
+    color: #f0f8ff;
+    font-size: 55px;
+    text-align: right;
+    padding-top: 70px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+body {
+    margin-top: 3%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: auto;
+}
+
+#bodyCalc {
+    background-color: rgba(10, 10, 10, 0.952);
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#calc {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+button {
+    margin: 6px;
+    height: 60px;
+    width: auto;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: rgb(61, 61, 61);
+}
+
+button:hover {
+    background-color: #262626;
+    transform: translateY(-1px);
+    transition-duration: 0.3s;
+}
+
+.btNunbers {
+    display: flex;
+    flex-direction: column;
+}
+
+#Igual {
+    background-color: #146bb8;
+}
